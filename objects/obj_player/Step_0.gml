@@ -15,5 +15,6 @@ if keyboard_check(vk_up) {
 move_wrap(true, true, 0)
 
 if keyboard_check_pressed(vk_space) {
-	instance_create_layer(x, y, "Instances", obj_bullet)
+	var _inst = instance_create_layer(x, y, "Instances", obj_bullet);
+	_inst.direction = image_angle;
 }
