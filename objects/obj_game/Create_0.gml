@@ -1,3 +1,4 @@
 /// @description Set score
 
-points = 0;
+lives = 1;
+score = 0;

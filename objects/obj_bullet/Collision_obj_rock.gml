@@ -17,7 +17,7 @@ with(other) {
 		}
 	}
 	
-	obj_game.points += 50;
+	score += 50;
 	effect_create_above(ef_explosion, x, y, 1, c_white);
 	
 }
