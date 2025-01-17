@@ -1,4 +1,5 @@
 /// @description Set score
 
-lives = 1;
+lives = 3;
+game_lives = lives;
 score = 0;

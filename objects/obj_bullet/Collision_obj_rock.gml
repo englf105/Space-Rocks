@@ -1,6 +1,7 @@
 /// @description ??
 
 instance_destroy();
+audio_play_sound(choose(sound_astroid, sound_asteroid2), 2, false);
 
 with(other) {
 	instance_destroy();

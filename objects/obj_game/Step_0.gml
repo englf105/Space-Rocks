@@ -3,6 +3,7 @@
 if keyboard_check_pressed(vk_enter) {
 	switch(room) {
 		case rm_start:
+			audio_play_sound(sound_help_open, 2, false);
 			room_goto(rm_game);
 			break;
 		case rm_win:
@@ -14,6 +15,7 @@ if keyboard_check_pressed(vk_enter) {
 }
 
 if (room == rm_game) {
+	
 	if (score >= 1000) {
 		room_goto(rm_win);
 	
@@ -21,5 +23,10 @@ if (room == rm_game) {
 	if (lives <= 0) {
 		room_goto(rm_lose);
 	
+	}
+	if (lives != game_lives){
+		alarm[0] = game_get_speed(gamespeed_fps) * 2;
+		game_lives = lives;
+		
 	}
 }
