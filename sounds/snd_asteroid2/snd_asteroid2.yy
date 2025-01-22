@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"sound_game_music",
+  "%Name":"snd_asteroid2",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":51.2,
-  "name":"sound_game_music",
+  "duration":0.335125,
+  "name":"snd_asteroid2",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"sound_game_music.wav",
+  "soundFile":"snd_asteroid2.wav",
   "type":0,
   "volume":1.0,
 }

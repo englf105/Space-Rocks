@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"sound_asteroid2",
+  "%Name":"snd_die",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.335125,
-  "name":"sound_asteroid2",
+  "duration":0.580522,
+  "name":"snd_die",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"sound_asteroid2.wav",
+  "soundFile":"snd_die.wav",
   "type":0,
   "volume":1.0,
 }

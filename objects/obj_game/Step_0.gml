@@ -3,7 +3,7 @@
 if keyboard_check_pressed(vk_enter) {
 	switch(room) {
 		case rm_start:
-			audio_play_sound(sound_help_open, 2, false);
+			audio_play_sound(snd_sound_button, 2, false);
 			room_goto(rm_game);
 			break;
 		case rm_win:

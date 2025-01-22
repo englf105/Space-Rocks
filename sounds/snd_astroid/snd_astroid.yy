@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"sound_title_music",
+  "%Name":"snd_astroid",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":51.2,
-  "name":"sound_title_music",
+  "duration":0.314921,
+  "name":"snd_astroid",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"sound_title_music.wav",
+  "soundFile":"snd_astroid.wav",
   "type":0,
   "volume":1.0,
 }
