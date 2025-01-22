@@ -12,7 +12,11 @@ switch(room) {
 		draw_set_halign(fa_center);
 		var c = c_yellow
 		draw_text(room_width/2, 400,
-		@"Score 2000 points to win! 
+		@"Score 2000 points to win!
+		
+		> Use L/R arrow keys to turn
+		> Use Up arrow key to move forward
+		> Use SPACE key to shoot
 		
 		>> press ENTER to start << "
 		);
