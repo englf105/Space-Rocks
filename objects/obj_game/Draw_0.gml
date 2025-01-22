@@ -12,7 +12,9 @@ switch(room) {
 		draw_set_halign(fa_center);
 		var c = c_yellow
 		draw_text(room_width/2, 400,
-		@" >> press ENTER to start << "
+		@"Score 2000 points to win! 
+		
+		>> press ENTER to start << "
 		);
 		draw_set_halign(fa_left);
 		break;

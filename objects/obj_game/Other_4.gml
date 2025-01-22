@@ -5,7 +5,8 @@ if (room == rm_game) {
 	if(audio_is_playing(sound_title_music)){
 		audio_stop_sound(sound_title_music);
 	}
-	audio_play_sound(sound_title_music, 2, true);
+	
+	audio_play_sound(sound_game_music, 2, true);
 	
 	repeat(6) {
 		var _xx = choose(
