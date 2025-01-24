@@ -29,6 +29,8 @@
     {"name":"snd_title_music","order":6,"path":"sounds/snd_title_music/snd_title_music.yy",},
     {"name":"spr_background","order":2,"path":"sprites/spr_background/spr_background.yy",},
     {"name":"spr_rock_small","order":1,"path":"sprites/spr_rock_small/spr_rock_small.yy",},
-    {"name":"spr_start_title","order":3,"path":"sprites/spr_start_title/spr_start_title.yy",},
+    {"name":"spr_title_lose","order":4,"path":"sprites/spr_title_lose/spr_title_lose.yy",},
+    {"name":"spr_title_start","order":3,"path":"sprites/spr_title_start/spr_title_start.yy",},
+    {"name":"spr_title_win","order":5,"path":"sprites/spr_title_win/spr_title_win.yy",},
   ],
 }
