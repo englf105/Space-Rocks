@@ -17,6 +17,7 @@
   "ResourceOrderSettings":[
     {"name":"obj_bullet","order":1,"path":"objects/obj_bullet/obj_bullet.yy",},
     {"name":"obj_game","order":3,"path":"objects/obj_game/obj_game.yy",},
+    {"name":"obj_lives","order":4,"path":"objects/obj_lives/obj_lives.yy",},
     {"name":"obj_rock","order":2,"path":"objects/obj_rock/obj_rock.yy",},
     {"name":"rm_game","order":1,"path":"rooms/rm_game/rm_game.yy",},
     {"name":"rm_lose","order":3,"path":"rooms/rm_lose/rm_lose.yy",},
@@ -28,6 +29,7 @@
     {"name":"snd_sound_button","order":8,"path":"sounds/snd_sound_button/snd_sound_button.yy",},
     {"name":"snd_title_music","order":6,"path":"sounds/snd_title_music/snd_title_music.yy",},
     {"name":"spr_background","order":2,"path":"sprites/spr_background/spr_background.yy",},
+    {"name":"spr_lives","order":6,"path":"sprites/spr_lives/spr_lives.yy",},
     {"name":"spr_rock_small","order":1,"path":"sprites/spr_rock_small/spr_rock_small.yy",},
     {"name":"spr_title_lose","order":4,"path":"sprites/spr_title_lose/spr_title_lose.yy",},
     {"name":"spr_title_start","order":3,"path":"sprites/spr_title_start/spr_title_start.yy",},

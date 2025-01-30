@@ -2,15 +2,15 @@
 
 switch(room) {
 	case rm_game:
-		draw_set_halign(fa_left);
-		draw_text(10, 10, "Score: " + string(score));
-		draw_text(10, 20, "Lives: " + string(lives));
+
+		draw_set_halign(fa_right);
+		draw_text_transformed(990, 20, string(score), 2, 2, 0);
+
 		break;
 		
 	case rm_start:
 		
 		draw_set_halign(fa_center);
-		var c = c_yellow
 		draw_text(room_width/2, 400,
 		@"Score 2000 points to win!
 		
